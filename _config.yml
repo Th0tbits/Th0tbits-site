@@ -1,0 +1,43 @@
+name: Th0tbits
+
+description: Keep It Simple, Stupid. 
+
+avatar: ./images/th0tbits.jpg
+
+author: Christian Marquez
+
+#footer-links:
+
+
+disqus: th0tbits.disqus.com
+google_analytics: UA-173149785-1
+url: (th0tbits.com)
+baseurl: ""
+
+permalink: none
+
+version: v1.2.0
+
+kramdown:
+
+  input: GFM
+  
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+
+    css_class: 'highlight'
+
+
+sass:
+  style: :compressed
+  # Para minificar estilos :compressed
+  # Para amplificar estilos :expanded
+
+gems:
+  - jekyll-sitemap
+  - jekyll-feed 
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - CNAME

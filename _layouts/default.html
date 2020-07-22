@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head><title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+  {% include meta.html %} 
+  {% include link.html %}
+  </head>
+  <body>
+  {% include wrapper-masthead.html %}
+  <div id="main" role="main" class="container">
+    {{ content }}
+  </div>
+  {% include wrapper-footer.html %}
+  {% include analytics.html %}
+  </body>
+</html>

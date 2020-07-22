@@ -1,0 +1,27 @@
+
+//
+// VARIABLES
+//
+
+// Colores
+$blue: #4183C4;
+
+// Grises
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$lightGray: #eee;
+$white: #fff;
+
+// Fuentes
+
+$Montserrat: 'Montserrat', sans-serif;
+$YesevaOne: 'Yeseva One', cursive;
+
+// Adaptacion.
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
